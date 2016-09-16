@@ -26,9 +26,8 @@ Warning:
 Install dependencies as soon as you clone the project:  
 `npm install`
 
-If you want to run the
-You can run it like this:
-`npm start`
+After playing with the boilerplate you can run it executing: `npm start` - Then open your web browser and navigate to `http://localhost:8080/webpack-dev-server`
+
 
 ## Something else?
 
