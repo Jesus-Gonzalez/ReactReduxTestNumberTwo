@@ -1,4 +1,15 @@
-# Simple React/Redux Boilerplate
+# ReactReduxTestNumberOne
+
+Simple React and Redux boilerplate.
+
+## Technologies Applied
+* React *15.3.x*
+* Redux *3.6.x*
+* react-redux library *4.4.5*
+* webpack and webpack-dev-server *1.13.2* and *1.15.2* respectively
+* babel *6*
+* Bootstrap *4 alpha* (loaded through CDN in /static/index.html)
+* Font Awesome *4.6.3* (loaded through CDN in /static/index.html)
 
 ## About this project
 Here it is another React and Redux boilerplate.
@@ -11,12 +22,22 @@ Warning:
 * Not including testing libraries  
 * Not ready to be linted.
 
+## How should I run this?
+Install dependencies as soon as you clone the project:  
+`npm install`
+
+If you want to run the
+You can run it like this:
+`npm start`
+
 ## Something else?
 
 Feel free to fork the project, copy it, play with it or whatever you like.
-This is a very basic boilerplate to get started with.
+This is a very basic boilerplate to get started with, so you do not struggle
+starting your React project, but I highly recommend creating one on your own.
 
-As soon as I continue progressing, I will be creating another repo called:  
-`advanced-react-redux-boilerplate`
+I'll soon link to a more advanced boilerplate `AvancedReactReduxBoilerplate`
+which will include routing with React Router,  
+linting and testing with mocha, chai and enzyme libs
 
 Stay tuned! :)
