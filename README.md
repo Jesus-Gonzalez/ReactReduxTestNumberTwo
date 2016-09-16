@@ -37,6 +37,6 @@ starting your React project, but I highly recommend creating one on your own.
 
 I'll soon link to a more advanced boilerplate `AvancedReactReduxBoilerplate`
 which will include routing with React Router,  
-linting and testing with mocha, chai and enzyme libs
+linting, and testing with mocha, chai and enzyme libs
 
 Stay tuned! :)
