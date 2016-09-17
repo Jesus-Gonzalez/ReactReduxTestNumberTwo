@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jesus-Gonzalez/ReactReduxTestNumberOne.git"
+    "url": "git+https://github.com/Jesus-Gonzalez/ReactReduxTestNumberTwo.git"
   },
   "keywords": [
     "react",
@@ -18,12 +18,14 @@
   "author": "Jesús González",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jesus-Gonzalez/ReactReduxTestNumberOne/issues"
+    "url": "https://github.com/Jesus-Gonzalez/ReactReduxTestNumberTwo/issues"
   },
-  "homepage": "https://github.com/Jesus-Gonzalez/ReactReduxTestNumberOne#readme",
+  "homepage": "https://github.com/Jesus-Gonzalez/ReactReduxTestNumberTwo#readme",
   "dependencies": {
+    "axios": "^0.14.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
+    "react-promise": "^1.1.2",
     "react-redux": "^4.4.5",
     "redux": "^3.6.0"
   },
