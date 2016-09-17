@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-test-number-one",
+  "name": "react-redux-test-number-two",
   "version": "0.0.1",
-  "description": "Testing React and Redux libs together",
+  "description": "Testing Redux async actions",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
