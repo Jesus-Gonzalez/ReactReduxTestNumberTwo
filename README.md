@@ -1,42 +1,37 @@
-# ReactReduxTestNumberOne
+# ReactReduxTestNumberTwo
 
-Simple React and Redux boilerplate.
+Simple React and Redux Test Number two.
 
 ## Technologies Applied
 * React *15.3.x*
 * Redux *3.6.x*
 * react-redux library *4.4.5*
+* react-promise *1.1.2*  
 * webpack and webpack-dev-server *1.13.2* and *1.15.2* respectively
 * babel *6*
+* axios *0.14*
 * Bootstrap *4 alpha* (loaded through CDN in /static/index.html)
 * Font Awesome *4.6.3* (loaded through CDN in /static/index.html)
 
 ## About this project
-Here it is another React and Redux boilerplate.
-
-This boilerplate is pretty simple,
-but it is easy to start doing some practice with it,
-and start learning about React and Redux easily.
-
-Warning:
-* Not including testing libraries  
-* Not ready to be linted.
+This is a simple Categorized Book Store made with React and Redux.  
+The main goal is understanding how to handle Redux async actions.
+I have used `react-promise` lib to handle Promise objects returned in actions.  
+I have used `axios` lib to make async HTTP requests.
 
 ## How should I run this?
 Install dependencies as soon as you clone the project:  
 `npm install`
 
-After playing with the boilerplate you can run it executing: `npm start` - Then open your web browser and navigate to `http://localhost:8080/webpack-dev-server`
+Then run `npm start` and navigate to `http://localhost:8080/webpack-dev-server`  
+using your favourite web browser
 
 
 ## Something else?
 
 Feel free to fork the project, copy it, play with it or whatever you like.
-This is a very basic boilerplate to get started with, so you do not struggle
-starting your React project, but I highly recommend creating one on your own.
+Here I'm just exposing the very basics about async actions.
 
-I'll soon link to a more advanced boilerplate `AvancedReactReduxBoilerplate`
-which will include routing with React Router,  
-linting, and testing with mocha, chai and enzyme libs
+My next project will include React Router.
 
 Stay tuned! :)
