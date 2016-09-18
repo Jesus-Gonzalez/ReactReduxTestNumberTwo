@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { FETCH_BOOKS } from './action_types';
 
-const BOOK_DATABASE_URI = '/book_store.json';
+const BOOK_DATABASE_URI = './book_store.json';
 
 export const fetchBookPending = () => ({
 	type: `${FETCH_BOOKS}_PENDING`
