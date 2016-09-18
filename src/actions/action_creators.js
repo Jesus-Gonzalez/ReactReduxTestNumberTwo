@@ -1,11 +1,4 @@
-import { ACTION, SELECT_BOOK } from './action_types';
-
-export function action(param) {
-	return {
-		type: ACTION,
-		payload: { param }
-	}
-};
+import { SELECT_BOOK } from './action_types';
 
 export function selectBook(book) {
 	return {
