@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { selectBook } from '../actions/action_creators';
+import selectBook from '../actions/action_creators';
 
 const BookList = ({ books, actions }) => {
   if (!books)

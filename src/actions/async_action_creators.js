@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-import { FETCH_BOOKS } from './action_types'
+import { FETCH_BOOKS } from './action_types';
 
 const BOOK_DATABASE_URI = '/book_store.json';
 
 export const fetchBookPending = () => ({
 	type: `${FETCH_BOOKS}_PENDING`
-})
+});
 
 export const fetchBookSuccess = ({ books, category }) => ({
 	type: `${FETCH_BOOKS}_SUCCESS`,
@@ -29,5 +29,5 @@ export function fetchBooks(category) {
 				dispatch(fetchBookSuccess({ books: response.data, category }));
 			})
 			.catch(err => dispatch(fetchBookError(err)));
-	}
-};
+	};
+}
