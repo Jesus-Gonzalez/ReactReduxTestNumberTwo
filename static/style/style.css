@@ -1,0 +1,17 @@
+#navbar-categories .nav-item {
+  cursor: pointer;
+}
+
+#book-store-content {
+  margin-top: 16px;
+}
+
+#book-list .list-group-item {
+  cursor: pointer;
+  opacity: .6;
+}
+
+#book-list .list-group-item:hover {
+  cursor: pointer;
+  opacity: 1;
+}
