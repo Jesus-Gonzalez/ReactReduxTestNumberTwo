@@ -1,0 +1,38 @@
+[
+  {
+    "isbn": 1,
+    "title": "Javascript: The Basics",
+    "description": "Learn the fundamentals and start mastering the most popular programming language",
+    "category": "dev-coding"
+  },
+  {
+    "isbn": 2,
+    "title": "Master Javascript",
+    "description": "Go beyond the basics and start applying advanced programming concepts",
+    "category": "dev-coding"
+  },
+  {
+    "isbn": 3,
+    "title": "ES6: The new Javascript standard specification",
+    "description": "Discover ES6 with this guide",
+    "category": "dev-coding"
+  },
+  {
+    "isbn": 4,
+    "title": "GIMP and Web Design",
+    "description": "How to master GIMP when designing websites",
+    "category": "design"
+  },
+  {
+    "isbn": 5,
+    "title": "Blender: Experts' guide",
+    "description": "Advanced topics on 3D modelling",
+    "category": "design"
+  },
+  {
+    "isbn": 6,
+    "title": "Ten reasons why you should be practicing sports",
+    "description": "This guide will help you understand why you should be practicing sports if you aren't already",
+    "category": "sports"
+  }
+]
