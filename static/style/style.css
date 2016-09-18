@@ -6,7 +6,7 @@
   margin-top: 16px;
 }
 
-#book-list .list-group-item {
+#book-list .list-group-item:not(.active) {
   cursor: pointer;
   opacity: .6;
 }

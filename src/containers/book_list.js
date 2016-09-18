@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux';
 
 import selectBook from '../actions/action_creators';
 
-const BookList = ({ books, actions }) => {
+const BookList = ({ activeBook, books, actions }) => {
   if (!books)
   return (
     <div className="alert alert-primary">
@@ -15,7 +15,7 @@ const BookList = ({ books, actions }) => {
   );
 
   const $books = books.map(book => (
-    <li className="list-group-item"
+    <li className={'list-group-item' + (activeBook && activeBook.isbn === book.isbn ? ' active' : '')}
         key={book.isbn}
         onClick={() => actions.selectBook(book)}>
       {book.title}
@@ -31,6 +31,7 @@ const BookList = ({ books, actions }) => {
 
 function mapStateToProps(state) {
   return {
+		activeBook: state.activeBook,
     books: state.books
   }
 }
