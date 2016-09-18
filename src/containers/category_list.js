@@ -29,10 +29,11 @@ class CategoryList extends Component {
     ));
 
     return (
-      <nav id="navbar-categories" className="navbar navbar-light bg-faded">
-        <ul className="nav navbar-nav">
-          {$categories}
-        </ul>
+      <nav id="navbar-categories" className="navbar navbar-light navbar-toggleable-xs bg-faded">
+				<ul className="nav navbar-nav">
+					<li className="nav-item">CATEGORIES</li>
+					{$categories}
+				</ul>
       </nav>
     );
   }

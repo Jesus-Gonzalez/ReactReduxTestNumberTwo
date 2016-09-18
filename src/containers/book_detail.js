@@ -7,11 +7,11 @@ const BookDetail = ({ books, activeBook }) => {
 
   if (!activeBook)
   return (
-    <h4 className="col-sm-8">Choose a book</h4>
+    <h4 className="col-xs-7">Choose a book</h4>
   );
 
   return (
-    <article className="col-sm-8">
+    <article className="col-xs-7">
       <h1>{ activeBook.title }</h1>
       <p>{ activeBook.description }</p>
     </article>

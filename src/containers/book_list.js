@@ -23,7 +23,7 @@ const BookList = ({ activeBook, books, actions }) => {
   ));
 
   return (
-    <ul id="book-list" className="col-sm-4 list-group">
+    <ul id="book-list" className="col-xs-5 list-group">
       {$books}
     </ul>
   );
