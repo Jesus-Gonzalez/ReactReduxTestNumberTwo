@@ -36,4 +36,4 @@ Here I'm just exposing the very basics about async actions.
 
 My next project will include React Router.
 
-Stay tuned! :)
+Stay tuned! :memo:
