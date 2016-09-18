@@ -6,7 +6,7 @@ Simple React and Redux Test Number two.
 * React *15.3.x*
 * Redux *3.6.x*
 * react-redux library *4.4.5*
-* react-promise *1.1.2*  
+* redux-thunk *2.1.0*  
 * webpack and webpack-dev-server *1.13.2* and *1.15.2* respectively
 * babel *6*
 * axios *0.14*
@@ -16,7 +16,7 @@ Simple React and Redux Test Number two.
 ## About this project
 This is a simple Categorized Book Store made with React and Redux.  
 The main goal is understanding how to handle Redux async actions.
-I have used `react-promise` lib to handle Promise objects returned in actions.  
+I have used `redux-thunk` lib to handle async actions.  
 I have used `axios` lib to make async HTTP requests.
 
 ## How should I run this?
