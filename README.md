@@ -15,7 +15,8 @@ Simple React and Redux Test Number two.
 
 ## About this project
 This is a simple Categorized Book Store made with React and Redux.  
-The main goal is understanding how to handle Redux async actions.
+The main goal is understanding how to handle Redux async actions.  
+This is a *demo* repository and it is *not intended* to run on production environment.
 I have used `redux-thunk` lib to handle async actions.  
 I have used `axios` lib to make async HTTP requests.
 
