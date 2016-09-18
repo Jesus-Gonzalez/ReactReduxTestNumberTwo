@@ -18,12 +18,9 @@ const BookDetail = ({ books, activeBook }) => {
   );
 }
 
-function mapStateToProps(state)
+function mapStateToProps({ books, activeBook})
 {
-  return {
-    books: state.books,
-    activeBook: state.activeBook
-  }
+  return { books, activeBook };
 }
 
 export default connect(mapStateToProps)(BookDetail);

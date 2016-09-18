@@ -29,11 +29,8 @@ const BookList = ({ activeBook, books, actions }) => {
   );
 }
 
-function mapStateToProps(state) {
-  return {
-		activeBook: state.activeBook,
-    books: state.books
-  }
+function mapStateToProps({ activeBook, books }) {
+  return { activeBook, books };
 }
 
 function mapDispatchToProps(dispatch) {

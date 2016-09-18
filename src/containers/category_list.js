@@ -38,10 +38,8 @@ class CategoryList extends Component {
   }
 }
 
-function mapStateToProps(state) {
-  return {
-    activeCategory: state.activeCategory
-  }
+function mapStateToProps({ activeCategory }) {
+  return { activeCategory };
 }
 
 function mapDispatchToProps(dispatch) {
