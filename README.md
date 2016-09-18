@@ -1,6 +1,7 @@
 # ReactReduxTestNumberTwo
 
-Simple React and Redux Test Number two.
+Simple React and Redux Test Number two.  
+[Project Live Demo Here](https://jesus-gonzalez.github.io/ReactReduxTestNumberTwo/)
 
 ## Technologies Applied
 * React *15.3.x*
